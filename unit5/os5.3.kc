@@ -713,7 +713,7 @@ void exit_hypervisor()
   }
 /* END of SYSCALL */
 
-void reset() {
+void RESET() {
   // Initialize screen memory, and select correct font
   *VIC_MEMORY = 0x14;
 
