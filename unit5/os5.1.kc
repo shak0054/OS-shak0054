@@ -476,6 +476,7 @@ void RESET() {
 
 
   current_screen_line = SCREEN;
+  print_to_screen(MESSAGE);
       print_newline();
       print_newline();
       print_newline();
