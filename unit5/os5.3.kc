@@ -898,8 +898,3 @@ export align(0x100) struct SysCall[] SYSCALL_RESET = {
   { JMP, &undefined_trap, NOP },
   { JMP, &CPUKIL, NOP }
 };
-
-void exit_hypervisor() {
-  // Trigger exit from Hypervisor mode
-  *(unsigned char *)$D67F = $01;
-}
