@@ -1,0 +1,6 @@
+*.asm
+*.bin
+*.dbg
+*.klog
+*.prg
+*.vs
