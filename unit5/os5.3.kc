@@ -115,6 +115,7 @@ void describe_pdb(unsigned char pdb_number)
   print_to_screen("  state:        ");
   switch(p->process_state) {
   case STATE_NEW: print_to_screen("new"); break;
+  case STATE_NOTRUNNING: print_to_screen("not running"); break;
   case STATE_RUNNING: print_to_screen("running"); break;
   case STATE_BLOCKED: print_to_screen("blocked"); break;
   case STATE_READY: print_to_screen("ready"); break;
