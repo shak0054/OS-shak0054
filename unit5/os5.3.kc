@@ -28,13 +28,13 @@ const char WHITE = 1;
 
 char[] MESSAGE = "checkpoint 5.3 shak0054";
 
-const unsigned char STATE_NOTRUNNING = $00;
+const unsigned char STATE_NOTRUNNING = $06;
 const unsigned char STATE_NEW = $01;
 const unsigned char STATE_READY = $02;
 const unsigned char STATE_READYSUSPENDED = $03;
 const unsigned char STATE_BLOCKEDSUSPENDED = $04;
 const unsigned char STATE_BLOCKED = $05;
-const unsigned char STATE_RUNNING = $06;
+const unsigned char STATE_RUNNING = $00;
 const unsigned char STATE_EXIT = $07;
 
 // Process Descriptor Block definition
